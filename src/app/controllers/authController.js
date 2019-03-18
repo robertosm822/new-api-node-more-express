@@ -82,6 +82,10 @@ router.post('/forgot_password', async (req, res) => {
 				passwordResetExpires: now,
 			}
 		});	
+		/*
+			CONTINUAR NO VIDEO #3: https://www.youtube.com/watch?v=Zwdv9RllPqU&index=3&list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp
+			AOS 21:30 MINUTOS
+		*/
 		mailer.sendMail({
 			to: email,
 			from: 'ed39c1c750-1d4d93@inbox.mailtrap.io',
